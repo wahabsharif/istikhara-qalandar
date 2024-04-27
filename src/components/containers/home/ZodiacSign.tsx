@@ -33,6 +33,19 @@ const ZodiacSign = () => {
   return (
     <section className="section offer fade-wrapper light">
       <div className="container">
+        <div className="col-12 col-lg-6">
+          <div className="agency__content section__content">
+            <h2 className="title title-anim">Select Your Zodiac Sign.</h2>
+            <div className="paragraph">
+              <p>
+                Select your zodiac sign to discover your distinctive
+                characteristics and compatibility. Delve into how the positions
+                of the stars shape your life in straightforward, accessible
+                terms.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="row gaper">
           <div className="col-12 col-lg-4 col-xl-4">
             <div className="offer__cta">
