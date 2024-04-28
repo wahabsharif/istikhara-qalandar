@@ -46,36 +46,33 @@ const Introduction = () => {
                   clients worldwide, becoming a beacon of hope and wisdom in
                   uncertain times. We offer assistance in numerous ways,
                   including:
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-arrow-right"> Istikhara</i>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-arrow-right"> Numerology</i>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-arrow-right">
-                        {" "}
-                        Spiritual Counseling
-                      </i>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-arrow-right">
-                        {" "}
-                        Resolving Family Matters
-                      </i>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-arrow-right"> Divorce Issues</i>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-arrow-right">
-                        {" "}
-                        Marriage Issues
-                      </i>
-                    </li>
-                  </ul>
                 </p>
+                <ul>
+                  <li>
+                    <i className="fa-solid fa-arrow-right"> Istikhara</i>
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-arrow-right"> Numerology</i>
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-arrow-right">
+                      {" "}
+                      Spiritual Counseling
+                    </i>
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-arrow-right">
+                      {" "}
+                      Resolving Family Matters
+                    </i>
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-arrow-right"> Divorce Issues</i>
+                  </li>
+                  <li>
+                    <i className="fa-solid fa-arrow-right"> Marriage Issues</i>
+                  </li>
+                </ul>
               </div>
               <div className="section__content-cta">
                 <Link href="tel:000-000-0000" className="btn btn--primary">
