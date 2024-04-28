@@ -43,9 +43,9 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  We&apos;re an UK-based top-notch design agency committed to
-                  partnering with good companies and hiring the right people for
-                  the right roles.
+                  Istikhara Qalandar offers Istikhara, Numerology, Wazaif
+                  services across the UK, US, Canada, Australia, and Europe,
+                  ensuring spiritual guidance worldwide.
                 </p>
               </div>
             </div>

@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import phone from "public/images/phone.png";
-import mail from "public/images/mail.png";
-import location from "public/images/location.png";
-import time from "public/images/time.png";
+import phone from "public/images/istikhara-qalandar-icon-phone.png";
+import mail from "public/images/istikhara-qalandar-icon-mail.png";
+import location from "public/images/istikhara-qalandar-icon-location.png";
+import time from "public/images/istikhara-qalandar-icon-time.png";
 
 const ContactMain = () => {
   return (
@@ -14,7 +14,7 @@ const ContactMain = () => {
           <div className="col-12 col-sm-6 col-xl-3">
             <div className="contact-m__single topy-tilt fade-top">
               <div className="thumb">
-                <Image src={phone} alt="Image" />
+                <Image src={phone} alt="istikhara-qalandar-icon-phone" />
               </div>
               <div className="content">
                 <h4>Phone & Fax</h4>
@@ -30,7 +30,7 @@ const ContactMain = () => {
           <div className="col-12 col-sm-6 col-xl-3">
             <div className="contact-m__single topy-tilt fade-top">
               <div className="thumb">
-                <Image src={mail} alt="Image" />
+                <Image src={mail} alt="istikhara-qalandar-icon-mail" />
               </div>
               <div className="content">
                 <h4>Mail Address</h4>
@@ -50,7 +50,7 @@ const ContactMain = () => {
           <div className="col-12 col-sm-6 col-xl-3">
             <div className="contact-m__single topy-tilt fade-top">
               <div className="thumb">
-                <Image src={location} alt="Image" />
+                <Image src={location} alt="istikhara-qalandar-icon-location" />
               </div>
               <div className="content">
                 <h4>Our Location</h4>
@@ -68,7 +68,7 @@ const ContactMain = () => {
           <div className="col-12 col-sm-6 col-xl-3">
             <div className="contact-m__single topy-tilt fade-top">
               <div className="thumb">
-                <Image src={time} alt="Image" />
+                <Image src={time} alt="istikhara-qalandar-icon-time" />
               </div>
               <div className="content">
                 <h4>Office Hour</h4>
@@ -123,11 +123,11 @@ const ContactMain = () => {
                       </div>
                       <div className="group-input drt">
                         <select className="subject">
-                          <option data-display="Subject">Subject</option>
-                          <option value="1">Account</option>
-                          <option value="2">Service</option>
-                          <option value="3">Pricing</option>
-                          <option value="4">Support</option>
+                          <option data-display="Subject">Select Subject</option>
+                          <option value="1">Istikhara</option>
+                          <option value="2">Numerology</option>
+                          <option value="3">Wazaif</option>
+                          <option value="4">Other Life Issues</option>
                         </select>
                       </div>
                       <div className="group-input ">
