@@ -1,4 +1,5 @@
 import CallToAction from "@/components/containers/common/CallToAction";
+import WhyUs from "@/components/containers/common/WhyUs";
 import AboutIstikhara from "@/components/containers/home/AboutIstikhara";
 import HomeBanner from "@/components/containers/home/HomeBanner";
 import IstikharaSection from "@/components/containers/home/IstikharaSection";
@@ -17,6 +18,7 @@ const Home = () => {
       <NumerologySection />
       <ZodiacSign />
       <CallToAction />
+      <WhyUs />
     </Layout>
   );
 };
