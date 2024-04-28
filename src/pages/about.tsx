@@ -8,12 +8,14 @@ import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
 import AboutSponsor from "@/components/containers/home-three/AboutSponsor";
 import AboutCta from "@/components/containers/home-two/AboutCta";
 import SEO from "@/components/seo";
+import Introduction from "@/components/containers/about/Intro";
 
 const About = () => {
   return (
-    <Layout header={2} footer={5} video={0}>
+    <Layout header={2} footer={1}>
       <SEO pageTitle="About Us" />
       <CmnBanner title="About Us" navigation="About Us" />
+      <Introduction />
       <HomeTwoModal />
       <Agency />
       <TeamMembers />
