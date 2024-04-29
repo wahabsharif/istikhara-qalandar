@@ -9,6 +9,8 @@ import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
 import SplitType from "split-type";
 
+gsap.registerPlugin(ScrollTrigger);
+
 type LayoutProps = {
   children: React.ReactNode;
   handleMouseEnterTitle?: any;
