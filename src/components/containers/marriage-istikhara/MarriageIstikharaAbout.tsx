@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import MarriageIstikhara from "public/images/istikhara-qalandar-istikhara-for-marriage-life.jpg";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
 
-const MarriageAbout = () => {
+const MarriageIstikharaAbout = () => {
   return (
     <section className="section award">
       <div className="container">
@@ -77,4 +76,4 @@ const MarriageAbout = () => {
   );
 };
 
-export default MarriageAbout;
+export default MarriageIstikharaAbout;
