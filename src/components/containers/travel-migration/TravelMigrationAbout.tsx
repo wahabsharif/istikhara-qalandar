@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import TravelMigrationIstikhara from "public/images/istikhara-qalandar-istikhara-for-travel-migration.jpg";
+import TravelMigrationIstikhara from "public/images/istikhara-qalandar-numerology-for-travel-and-migration.jpg";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
 
-const TravelMigrationIstikharaAbout = () => {
+const TravelMigrationAbout = () => {
   return (
     <section className="section award">
       <div className="container">
@@ -33,7 +33,7 @@ const TravelMigrationIstikharaAbout = () => {
             <div className="award__thumb dir-rtl">
               <Image
                 src={TravelMigrationIstikhara}
-                alt="istikhara-qalandar-istikhara-for-travel-and-migration"
+                alt="istikhara-qalandar-numerology-for-travel-and-migration"
                 className="unset fade-left"
               />
             </div>
@@ -81,26 +81,26 @@ const TravelMigrationIstikharaAbout = () => {
       </div>
       <Image
         src={star}
-        alt="istikhara-qalandar-istikhara-for-travel-and-migration-star"
+        alt="istikhara-qalandar-numerology-for-travel-and-migration-star"
         className="star"
       />
       <Image
         src={star}
-        alt="istikhara-qalandar-istikhara-for-travel-and-migration-star"
+        alt="istikhara-qalandar-numerology-for-travel-and-migration-star"
         className="star-two"
       />
       <Image
         src={dotlarge}
-        alt="istikhara-qalandar-istikhara-for-travel-and-migration-dots-large"
+        alt="istikhara-qalandar-numerology-for-travel-and-migration-dots-large"
         className="dot"
       />
       <Image
         src={dotlarge}
-        alt="istikhara-qalandar-istikhara-for-travel-and-migration-large"
+        alt="istikhara-qalandar-numerology-for-travel-and-migration-large"
         className="dot-two"
       />
     </section>
   );
 };
 
-export default TravelMigrationIstikharaAbout;
+export default TravelMigrationAbout;
