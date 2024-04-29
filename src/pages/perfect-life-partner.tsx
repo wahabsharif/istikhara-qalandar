@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout";
 import CmnBanner from "@/components/layout/banner/CmnBanner";
 import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
-import PerfectLifePartnerAbout from "@/components/containers/perfect-life-partner/PerfectLifePartnerAbout";
+import PerfectLifePartnerAbout from "@/components/containers/numerology/PerfectLifePartnerAbout";
 
 const OurStory = () => {
   return (

@@ -3,7 +3,7 @@ import Layout from "@/components/layout/Layout";
 import CmnBanner from "@/components/layout/banner/CmnBanner";
 import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
-import CarrierCounsellingAbout from "@/components/containers/carrier-counselling/CarrierCounsellingAbout";
+import CarrierCounsellingAbout from "@/components/containers/numerology/CarrierCounsellingAbout";
 
 const OurStory = () => {
   return (
