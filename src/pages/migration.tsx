@@ -5,7 +5,7 @@ import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
 import MigrationIstikharaAbout from "@/components/containers/istikhara/MigrationIstikharaAbout";
 
-const OurStory = () => {
+const Migration = () => {
   return (
     <Layout header={2} footer={1}>
       <SEO pageTitle="Istikhara For Migration" />
@@ -19,4 +19,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default Migration;

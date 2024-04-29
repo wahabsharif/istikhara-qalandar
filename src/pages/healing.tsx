@@ -5,7 +5,7 @@ import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
 import HealingIstikharaAbout from "@/components/containers/istikhara/HealingIstikharaAbout";
 
-const OurStory = () => {
+const Healing = () => {
   return (
     <Layout header={2} footer={1}>
       <SEO pageTitle="Istikhara For Healing" />
@@ -19,4 +19,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default Healing;

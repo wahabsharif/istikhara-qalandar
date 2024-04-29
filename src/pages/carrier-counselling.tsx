@@ -5,7 +5,7 @@ import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
 import CarrierCounsellingAbout from "@/components/containers/numerology/CarrierCounsellingAbout";
 
-const OurStory = () => {
+const CareerCounselling = () => {
   return (
     <Layout header={2} footer={1}>
       <SEO pageTitle="Choosing The Career In Your Life" />
@@ -19,4 +19,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default CareerCounselling;

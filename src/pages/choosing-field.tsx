@@ -5,7 +5,7 @@ import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
 import ChoosingFieldIstikharaAbout from "@/components/containers/istikhara/ChoosingFieldIstikharaAbout";
 
-const OurStory = () => {
+const ChoosingField = () => {
   return (
     <Layout header={2} footer={1}>
       <SEO pageTitle="Istikhara For Choosing Field" />
@@ -19,4 +19,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default ChoosingField;

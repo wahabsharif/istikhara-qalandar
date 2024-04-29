@@ -5,7 +5,7 @@ import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
 import NewBornBabyAbout from "@/components/containers/numerology/NewBornBabyAbout";
 
-const OurStory = () => {
+const NewBornBaby = () => {
   return (
     <Layout header={2} footer={1}>
       <SEO pageTitle="New Born Babies Names Selection" />
@@ -19,4 +19,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default NewBornBaby;

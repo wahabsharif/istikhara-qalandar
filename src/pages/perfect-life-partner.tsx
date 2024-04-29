@@ -5,7 +5,7 @@ import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
 import PerfectLifePartnerAbout from "@/components/containers/numerology/PerfectLifePartnerAbout";
 
-const OurStory = () => {
+const PerfectLifePartner = () => {
   return (
     <Layout header={2} footer={1}>
       <SEO pageTitle="Best Time For Marriage" />
@@ -19,4 +19,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default PerfectLifePartner;

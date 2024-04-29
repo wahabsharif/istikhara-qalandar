@@ -5,7 +5,7 @@ import SEO from "@/components/seo";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
 import StonesAndColorsAbout from "@/components/containers/numerology/StonesAndColorsAbout";
 
-const OurStory = () => {
+const StonesAndColors = () => {
   return (
     <Layout header={2} footer={1}>
       <SEO pageTitle="Useful Stones and Colors In Your Life" />
@@ -19,4 +19,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default StonesAndColors;
