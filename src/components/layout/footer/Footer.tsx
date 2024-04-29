@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "public/images/logo/istikhara-qalandar-logo-dark.svg";
-import devIcon from "public/images/logo/developer-icon.ico";
+// import devIcon from "public/images/logo/developer-icon.ico";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -107,14 +107,14 @@ const Footer = () => {
                   <p>
                     Copyright &copy;
                     <span id="copyYear">{currentYear}</span> Istikhara Qalandar.
-                    All Rights Reserved - Designed & Developed With Passion By{" "}
-                    <Link
+                    All Rights Reserved
+                    {/* <Link
                       href="https://wahabsharif.me/"
                       className=""
                       target="_blank"
                     >
                       <Image src={devIcon} width={32} alt="Image" />
-                    </Link>
+                    </Link> */}
                   </p>
                 </div>
               </div>
