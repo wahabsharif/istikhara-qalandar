@@ -75,8 +75,8 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                 <Image
                   src={logo}
                   width={100}
-                  alt="Image"
-                  title="Image"
+                  alt="istikhara-qalandar-logo"
+                  title="istikhara-qalandar-logo"
                   priority
                 />
               </Link>

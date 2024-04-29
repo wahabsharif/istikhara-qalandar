@@ -14,7 +14,7 @@
   // default theme settings
   --theme-font: var(--inter);
   --theme-bg: #0c3435;
-  --theme-color: #ffffff;
+  --theme-color: #f1f9ec;
   h1,
   h2,
   h3,
@@ -24,16 +24,16 @@
     font-family: var(--cinzel);
   }
   // color variables
-  --white: #ffffff;
-  --black: #000000;
+  --white: #f1f9ec;
+  --black: #012622;
   --primary-color: #b4a474;
   --secondary-color: #8ca858;
-  --tertiary-color: #0e0e0e;
-  --quaternary-color: #040404;
+  --tertiary-color: #012622;
+  --quaternary-color: #012622;
   --quinary-color: #c1c1c1;
-  --senary-color: #191919;
-  --septenary-color: #101010;
-  --octonary-color: #1a1a1a;
+  --senary-color: #012622;
+  --septenary-color: #012622;
+  --octonary-color: #012622;
   --nonary-color: #d9d9d9;
 
   // transitions

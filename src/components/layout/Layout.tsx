@@ -1,20 +1,10 @@
 import React, { Fragment, useState, useEffect } from "react";
-// import Head from "next/head";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import VanillaTilt from "vanilla-tilt";
 import { useRouter } from "next/router";
 import Header from "./header/Header";
-import HeaderTwo from "./header/HeaderTwo";
-import HeaderThree from "./header/HeaderThree";
-import HeaderFour from "./header/HeaderFour";
-import HeaderFive from "./header/HeaderFive";
 import Footer from "./footer/Footer";
-import FooterTwo from "./footer/FooterTwo";
-import FooterThree from "./footer/FooterThree";
-import FooterFour from "./footer/FooterFour";
-import FooterFive from "./footer/FooterFive";
-import VideoModal from "./VideoModal";
 import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
 import SplitType from "split-type";
@@ -171,52 +161,9 @@ const Layout = ({
 
   return (
     <Fragment>
-      {/* <Head>
-        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="shortcut icon"
-          href="/images/favicon.png"
-          type="image/x-icon"
-        />
-        <title>Istikhara Qalandar</title>
-        <meta name="keywords" content="creative, agency, portfolio" />
-        <meta
-          name="description"
-          content="Digital Agency Creative Portfolio Template"
-        />
-      </Head> */}
       <div className={combinedClassName}>
-        {header === 1 && (
-          <Header
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
         {header === 2 && (
-          <HeaderTwo
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
-        {header === 3 && (
-          <HeaderThree
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
-        {header === 4 && (
-          <HeaderFour
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
-        {header === 5 && (
-          <HeaderFive
+          <Header
             openNav={openNav}
             handleNav={handleNav}
             setOpenNav={setOpenNav}
@@ -224,11 +171,6 @@ const Layout = ({
         )}
         <main>{children}</main>
         {footer === 1 && <Footer />}
-        {footer === 2 && <FooterTwo />}
-        {footer === 3 && <FooterThree />}
-        {footer === 4 && <FooterFour />}
-        {footer === 5 && <FooterFive />}
-        {video ? <VideoModal /> : null}
         <ScrollProgressBtn />
         <CustomCursor
           onTitleMouseEnter={handleMouseEnterTitle}

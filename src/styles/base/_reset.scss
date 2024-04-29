@@ -8,12 +8,12 @@
   box-sizing: border-box;
 
   &::-moz-selection {
-    color: #ffffff;
+    color: #f1f9ec;
     background-color: #1770c8;
   }
 
   &::selection {
-    color: #ffffff;
+    color: #f1f9ec;
     background-color: #1770c8;
   }
 }
