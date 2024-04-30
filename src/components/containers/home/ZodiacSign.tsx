@@ -1,10 +1,21 @@
-import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import blogthumb from "public/images/offer/blog-thumb.png";
-import two from "public/images/offer/two.png";
-import three from "public/images/offer/three.png";
+import { useEffect } from "react";
+
+// Zodiac Images
 import star from "public/images/offer/star.png";
+import AquariusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-aquarius.png";
+import AriesZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-aries.png";
+import CancerZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-cancer.png";
+import CapricornZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-capricorn.png";
+import GeminiZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-gemini.png";
+import LeoZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-leo.png";
+import LibraZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-libra.png";
+import PiscesZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-pisces.png";
+import SagittariusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-sagittarius.png";
+import ScorpioZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-scorpio.png";
+import TaurusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-taurus.png";
+import VirgoZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-virgo.png";
 
 const ZodiacSign = () => {
   useEffect(() => {
@@ -61,7 +72,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image
+                    src={AquariusZodiac}
+                    alt="istikhara-qalandar-zodiac-aquarius"
+                  />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -76,7 +90,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={two} alt="Image" />
+                  <Image
+                    src={PiscesZodiac}
+                    alt="istikhara-qalandar-zodiac-pisces"
+                  />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -90,7 +107,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={three} alt="Image" />
+                  <Image
+                    src={AriesZodiac}
+                    alt="istikhara-qalandar-zodiac-aries"
+                  />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -105,7 +125,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image
+                    src={TaurusZodiac}
+                    alt="istikhara-qalandar-zodiac-taurus"
+                  />
                 </div>
               </div>
             </div>
@@ -124,7 +147,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image
+                    src={GeminiZodiac}
+                    alt="istikhara-qalandar-zodiac-gemini"
+                  />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -139,7 +165,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={two} alt="Image" />
+                  <Image
+                    src={CancerZodiac}
+                    alt="istikhara-qalandar-zodiac-cancer"
+                  />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -154,7 +183,7 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={three} alt="Image" />
+                  <Image src={LeoZodiac} alt="istikhara-qalandar-zodiac-leo" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -169,7 +198,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image
+                    src={VirgoZodiac}
+                    alt="istikhara-qalandar-zodiac-virgo"
+                  />
                 </div>
               </div>
             </div>
@@ -188,7 +220,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image
+                    src={LibraZodiac}
+                    alt="istikhara-qalandar-zodiac-libra"
+                  />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -203,7 +238,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={two} alt="Image" />
+                  <Image
+                    src={ScorpioZodiac}
+                    alt="istikhara-qalandar-zodiac-scorpio"
+                  />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -218,7 +256,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={three} alt="Image" />
+                  <Image
+                    src={SagittariusZodiac}
+                    alt="istikhara-qalandar-zodiac-sagittarius"
+                  />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -233,7 +274,10 @@ const ZodiacSign = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image
+                    src={CapricornZodiac}
+                    alt="istikhara-qalandar-zodiac-capricorn"
+                  />
                 </div>
               </div>
             </div>
