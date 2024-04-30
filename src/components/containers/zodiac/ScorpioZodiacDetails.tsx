@@ -33,7 +33,7 @@ const ScorpioZodiacDetails = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="mission-s__single mission-s__single--alt fade-top">
-              <h3>Scorpio برج میزان</h3>
+              <h3>Scorpio برج عقرب</h3>
               <div className="section__content-cta">
                 <h3>Element</h3>
                 <p className="primary-text">Water</p>
