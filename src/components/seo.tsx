@@ -15,7 +15,7 @@ const SEO: React.FC<SEOProps> = ({ pageTitle }) => (
     description="Find direction and meaning in life! Explore numerology, istikhara, astrology, love, travel, career, and more. Discover your life partner, lucky stones, and travel stars. Get expert advice and guidance on your unique journey."
     openGraph={{
       type: "website",
-      url: "https://yourwebsite.com/",
+      url: "http://istikharaqalandar.com/",
       title: pageTitle
         ? `${pageTitle} - Your Reliable Guide: Life Journey, Numerology, Istikhara, Astrology & More!`
         : undefined,
@@ -23,16 +23,16 @@ const SEO: React.FC<SEOProps> = ({ pageTitle }) => (
         "Find direction and meaning in life! Explore numerology, istikhara, astrology, love, travel, career, and more. Discover your life partner, lucky stones, and travel stars. Get expert advice and guidance on your unique journey.",
       images: [
         {
-          url: "https://yourwebsite.com/images/og-image.jpg",
+          url: "https://raw.githubusercontent.com/wahabsharif/istikhara-qalandar/main/public/web-demos/istakhara-qalandar-home-banner-demo.png",
           width: 800,
           height: 600,
-          alt: "Og Image Alt",
+          alt: "Istikhara Qalandar Home Image",
         },
         {
-          url: "https://yourwebsite.com/images/og-image-2.jpg",
+          url: "https://raw.githubusercontent.com/wahabsharif/istikhara-qalandar/main/public/web-demos/istakhara-qalandar-home-banner-demo.png",
           width: 900,
           height: 800,
-          alt: "Og Image 2 Alt",
+          alt: "Istikhara Qalandar Home Image",
         },
       ],
     }}

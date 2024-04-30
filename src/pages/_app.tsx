@@ -28,7 +28,7 @@ export default function App({ Component, pageProps }: AppProps) {
           openGraph={{
             type: "website",
             locale: "en_US",
-            url: "https://www.example.com/",
+            url: "http://istikharaqalandar.com/",
             site_name:
               "Istikhara Qalandar - Your Reliable Guide: Life Journey, Numerology, Istikhara, Astrology & More!",
           }}
