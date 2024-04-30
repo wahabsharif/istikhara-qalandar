@@ -2102,7 +2102,7 @@
   .mission-s__single {
     height: 100%;
     background-color: #131313;
-    border-radius: 20%;
+    border-radius: 8px;
   }
 
   .mission-s__single--alt {
@@ -2114,7 +2114,7 @@
     transition: var(--transition);
     border: 10px solid transparent;
     &:hover {
-      border: 10px solid var(--primary-color);
+      border: 5px solid var(--primary-color);
     }
 
     h3 {
