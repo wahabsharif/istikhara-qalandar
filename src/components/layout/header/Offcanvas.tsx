@@ -95,6 +95,9 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                 <li className="navbar__item nav-fade">
                   <Link href="/">Home</Link>
                 </li>
+                <li className="navbar__item nav-fade">
+                  <Link href="about">About</Link>
+                </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
                     aria-label="dropdown menu"
@@ -177,9 +180,6 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                 </li>
                 <li className="navbar__item nav-fade">
                   <Link href="wazaif">Wazaif</Link>
-                </li>
-                <li className="navbar__item nav-fade">
-                  <Link href="about">About</Link>
                 </li>
                 <li className="navbar__item nav-fade">
                   <Link href="contact">Contact</Link>

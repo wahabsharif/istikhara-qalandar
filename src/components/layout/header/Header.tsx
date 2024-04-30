@@ -70,6 +70,11 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           Home
                         </Link>
                       </li>
+                      <li className="navbar__item nav-fade">
+                        <Link href="about" className="navbar__item__link">
+                          About
+                        </Link>
+                      </li>
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
@@ -140,11 +145,6 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         <Link href="wazaif" className="navbar__item__link">
                           Wazaif
                         </Link>
-                      </li>
-                      <li className="navbar__item nav-fade">
-                        <Link href="about" className="navbar__item__link">
-                          About
-                        </Link>{" "}
                       </li>
                       <li className="navbar__item nav-fade">
                         <Link href="contact" className="navbar__item__link">
