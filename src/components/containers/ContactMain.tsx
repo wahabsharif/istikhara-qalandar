@@ -10,7 +10,7 @@ const ContactMain = () => {
     <section className="section contact-m fade-wrapper">
       <div className="container">
         <div className="row gaper">
-          <div className="col-12 col-sm-6 col-xl-4">
+          <div className="col-12 col-sm-6 col-xl-6">
             <div className="contact-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Image src={phone} alt="istikhara-qalandar-icon-phone" />
@@ -18,15 +18,12 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Phone</h4>
                 <p>
-                  <Link href="tel:197-90-56-780">Mobile : +197-90-56-780</Link>
-                </p>
-                <p>
-                  <Link href="tel:197-90-56-780">Fax : +44-208-1234567</Link>
+                  <Link href="tel:923000701999">Mobile : +92 300 0701999</Link>
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-xl-4">
+          <div className="col-12 col-sm-6 col-xl-6">
             <div className="contact-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Image src={mail} alt="istikhara-qalandar-icon-mail" />
@@ -43,18 +40,6 @@ const ContactMain = () => {
                     Info.company@yahoo.com
                   </Link>
                 </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-sm-6 col-xl-4">
-            <div className="contact-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Image src={time} alt="istikhara-qalandar-icon-time" />
-              </div>
-              <div className="content">
-                <h4>Office Hour</h4>
-                <p>Sun - Thu 09 am - 06pm</p>
-                <p>Fri - Sat 4 pm - 10pm</p>
               </div>
             </div>
           </div>

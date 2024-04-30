@@ -81,9 +81,9 @@ const Footer = () => {
               <h5>Contact Us</h5>
             </div>
             <div className="footer__single-meta">
-              <Link href="tel:406-555-0120">
+              <Link href="tel:923000701999">
                 <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                (406) 555-0120
+                +92 300 0701999
               </Link>
               <Link href="mailto:info@istikhara-qalandar.com">
                 <i className="fa-sharp fa-solid fa-envelope"></i>
