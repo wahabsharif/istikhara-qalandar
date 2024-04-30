@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12 col-lg-3 col-xl-3">
             <Link href="/" className="logo">
-              <Image src={logo} width={150} alt="Image" />
+              <Image src={logo} width={200} alt="Image" />
             </Link>
             <div className="footer__single">
               <div className="align-align-items-center">

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import phone from "public/images/istikhara-qalandar-icon-phone.png";
 import mail from "public/images/istikhara-qalandar-icon-mail.png";
-import time from "public/images/istikhara-qalandar-icon-time.png";
 
 const ContactMain = () => {
   return (
@@ -18,7 +17,7 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Phone</h4>
                 <p>
-                  <Link href="tel:923000701999">Mobile : +92 300 0701999</Link>
+                  <Link href="tel:923000701999">+92 300 0701999</Link>
                 </p>
               </div>
             </div>
