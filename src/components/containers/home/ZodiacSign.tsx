@@ -66,7 +66,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="aquarius">
                     Aquarius
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -84,7 +84,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="pisces">
                     Pisces
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -102,7 +102,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="aries">
                     Aries<i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
                 </h2>
@@ -119,7 +119,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="taurus">
                     Taurus
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -141,7 +141,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="gemini">
                     Gemini
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -159,7 +159,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="cancer">
                     Cancer
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -177,7 +177,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="leo">
                     Leo
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -192,7 +192,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="virgo">
                     Virgo
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -214,7 +214,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="libra">
                     Libra
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -232,7 +232,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="scorpio">
                     Scorpio
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -250,7 +250,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="sagittarius">
                     Sagittarius
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
@@ -268,7 +268,7 @@ const ZodiacSign = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="capricorn">
                     Capricorn
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </Link>
