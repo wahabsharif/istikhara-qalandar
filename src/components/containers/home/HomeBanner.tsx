@@ -53,7 +53,7 @@ const HomeBanner = () => {
                 <div className="thumb imae">
                   <video autoPlay loop muted controls>
                     <source
-                      src="/videos/istikhara-qalandar-home-banner-video.mp4"
+                      src="/videos/istikhara-qalandar-home-banner-video.webm"
                       type="video/mp4"
                     />
                   </video>
