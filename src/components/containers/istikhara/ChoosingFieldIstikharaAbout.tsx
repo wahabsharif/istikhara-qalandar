@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import ChoosingFieldIstikhara from "public/images/istikhara-qalandar-istikhara-for-choosing-field.webp";
-import star from "public/images/star.png";
-import dotlarge from "public/images/agency/dot-large.png";
+import star from "public/images/star.webp";
+import dotlarge from "public/images/agency/dot-large.webp";
 
 const ChoosingFieldIstikharaAbout = () => {
   return (

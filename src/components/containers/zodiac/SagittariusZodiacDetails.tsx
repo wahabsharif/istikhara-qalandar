@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import SagittariusZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-sagittarius.png";
+import SagittariusZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-sagittarius.webp";
 
 const SagittariusZodiacDetails = () => {
   return (

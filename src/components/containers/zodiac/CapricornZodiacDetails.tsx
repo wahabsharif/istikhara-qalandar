@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CapricornZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-capricorn.png";
+import CapricornZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-capricorn.webp";
 
 const CapricornZodiacDetails = () => {
   return (

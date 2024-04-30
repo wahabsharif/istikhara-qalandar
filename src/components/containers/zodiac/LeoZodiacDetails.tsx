@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LeoZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-leo.png";
+import LeoZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-leo.webp";
 
 const LeoZodiacDetails = () => {
   return (

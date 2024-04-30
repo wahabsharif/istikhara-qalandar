@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AriesZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-aries.png";
+import AriesZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-aries.webp";
 
 const AriesZodiacDetails = () => {
   return (

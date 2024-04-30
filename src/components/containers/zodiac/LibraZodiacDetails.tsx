@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LibraZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-libra.png";
+import LibraZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-libra.webp";
 
 const LibraZodiacDetails = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import PiscesZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-pisces.png";
+import PiscesZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-pisces.webp";
 
 const PiscesZodiacDetails = () => {
   return (

@@ -3,10 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import AboutIstikharaImage1 from "public/images/istikhara/about-what-is-the-purpose-of-istikhara-1.jpg";
+import AboutIstikharaImage1 from "public/images/istikhara/about-what-is-the-purpose-of-istikhara-1.webp";
 import AboutIstikharaGif from "public/images/istikhara/about-what-is-the-purpose-of-istikhara-vid.gif";
-import star from "public/images/star.png";
-import dotlarge from "public/images/agency/dot-large.png";
+import star from "public/images/star.webp";
+import dotlarge from "public/images/agency/dot-large.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 const Introduction = () => {

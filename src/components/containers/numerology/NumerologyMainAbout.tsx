@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import NumerologyMainPageImage from "public/images/istikhara-qalandar-numerology-main-page-about.jpg";
+import NumerologyMainPageImage from "public/images/istikhara-qalandar-numerology-main-page-about.webp";
 
 const NumerologyMainAbout = () => {
   return (

@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 // Vectors Images
-import CareerNumerology from "public/images/numerology/numerology-for-choosing-the-career.png";
-import ColorsStonesNumerology from "public/images/numerology/numerology-for-colors-and-stones.png";
-import MarriageMatchesNumerology from "public/images/numerology/numerology-for-marriage-matches.png";
-import NewBornBabiesNameNumerology from "public/images/numerology/numerology-for-new-born-babies-name.png";
-import TravelMigrationNumerology from "public/images/numerology/numerology-for-travel-and-migration.png";
+import CareerNumerology from "public/images/numerology/numerology-for-choosing-the-career.webp";
+import ColorsStonesNumerology from "public/images/numerology/numerology-for-colors-and-stones.webp";
+import MarriageMatchesNumerology from "public/images/numerology/numerology-for-marriage-matches.webp";
+import NewBornBabiesNameNumerology from "public/images/numerology/numerology-for-new-born-babies-name.webp";
+import TravelMigrationNumerology from "public/images/numerology/numerology-for-travel-and-migration.webp";
 
 const NumerologySection = () => {
   return (

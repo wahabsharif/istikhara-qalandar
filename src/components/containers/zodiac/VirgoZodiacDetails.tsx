@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import VirgoZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-virgo.png";
+import VirgoZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-virgo.webp";
 
 const VirgoZodiacDetails = () => {
   return (

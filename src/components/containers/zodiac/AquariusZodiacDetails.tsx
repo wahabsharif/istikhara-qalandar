@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AquariusZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-aquarius.png";
+import AquariusZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-aquarius.webp";
 
 const AquariusZodiacDetails = () => {
   return (

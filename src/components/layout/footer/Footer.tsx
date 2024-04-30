@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer
       className="footer section pb-0"
-      style={{ backgroundImage: "url('/images/footer/footer-bg.png')" }}
+      style={{ backgroundImage: "url('/images/footer/footer-bg.webp')" }}
     >
       <div className="container">
         <div className="row">

@@ -10,7 +10,7 @@ const CallToAction = () => {
             <div
               className="cta-two-wrapper bg-img"
               style={{
-                backgroundImage: "url('/images/call-to-action-image.jpg')",
+                backgroundImage: "url('/images/call-to-action-image.webp')",
               }}
             >
               <div className="row gaper align-items-center">

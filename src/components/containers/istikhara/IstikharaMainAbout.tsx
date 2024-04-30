@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import IstikharaMainPageImage from "public/images/istikhara-qalandar-istikhara-main-page-about.jpg";
+import IstikharaMainPageImage from "public/images/istikhara-qalandar-istikhara-main-page-about.webp";
 
 const IstikharaMainAbout = () => {
   return (

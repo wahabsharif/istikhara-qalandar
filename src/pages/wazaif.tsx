@@ -6,9 +6,9 @@ import WazaifEng from "@/components/containers/wazaif/WazaifEn";
 import WazaifUr from "@/components/containers/wazaif/WazaifUr";
 import WazaifAr from "@/components/containers/wazaif/WazaifAr";
 import CallToActionThree from "@/components/containers/common/CallToActionThree";
-import EnglishLangIcon from "public/images/istikhara-qalandar-english-language-icon.png";
-import UrduLangIcon from "public/images/istikhara-qalandar-urdu-language-icon.png";
-import ArabicLangIcon from "public/images/istikhara-qalandar-arabic-language-icon.png";
+import EnglishLangIcon from "public/images/istikhara-qalandar-english-language-icon.webp";
+import UrduLangIcon from "public/images/istikhara-qalandar-urdu-language-icon.webp";
+import ArabicLangIcon from "public/images/istikhara-qalandar-arabic-language-icon.webp";
 
 const Wazaif = () => {
   const [selectedLanguage, setSelectedLanguage] = useState("en"); // Initial language

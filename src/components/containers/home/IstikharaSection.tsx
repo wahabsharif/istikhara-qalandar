@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 // Vectors Images
-import ChoosingFieldIstikhara from "public/images/istikhara/istikhara-for-choosing-field.png";
-import CourtCaseIstikhara from "public/images/istikhara/istikhara-for-court-case.png";
-import HealingIstikhara from "public/images/istikhara/istikhara-for-healing.png";
-import HealthIstikhara from "public/images/istikhara/istikhara-for-health.png";
-import JobIstikhara from "public/images/istikhara/istikhara-for-job.png";
-import MarriageIstikhara from "public/images/istikhara/istikhara-for-marriage-life.png";
-import MigrationIstikhara from "public/images/istikhara/istikhara-for-migration.png";
+import ChoosingFieldIstikhara from "public/images/istikhara/istikhara-for-choosing-field.webp";
+import CourtCaseIstikhara from "public/images/istikhara/istikhara-for-court-case.webp";
+import HealingIstikhara from "public/images/istikhara/istikhara-for-healing.webp";
+import HealthIstikhara from "public/images/istikhara/istikhara-for-health.webp";
+import JobIstikhara from "public/images/istikhara/istikhara-for-job.webp";
+import MarriageIstikhara from "public/images/istikhara/istikhara-for-marriage-life.webp";
+import MigrationIstikhara from "public/images/istikhara/istikhara-for-migration.webp";
 
 const IstikharaSection = () => {
   return (

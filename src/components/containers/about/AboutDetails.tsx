@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import star from "public/images/star.png";
-import dotlarge from "public/images/agency/dot-large.png";
+import star from "public/images/star.webp";
+import dotlarge from "public/images/agency/dot-large.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 const AboutDetails = () => {

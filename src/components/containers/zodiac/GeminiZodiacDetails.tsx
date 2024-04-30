@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import GeminiZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-gemini.png";
+import GeminiZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-gemini.webp";
 
 const GeminiZodiacDetails = () => {
   return (

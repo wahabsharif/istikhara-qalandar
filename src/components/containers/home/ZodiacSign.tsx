@@ -3,19 +3,19 @@ import Link from "next/link";
 import { useEffect } from "react";
 
 // Zodiac Images
-import star from "public/images/offer/star.png";
-import AquariusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-aquarius.png";
-import AriesZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-aries.png";
-import CancerZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-cancer.png";
-import CapricornZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-capricorn.png";
-import GeminiZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-gemini.png";
-import LeoZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-leo.png";
-import LibraZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-libra.png";
-import PiscesZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-pisces.png";
-import SagittariusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-sagittarius.png";
-import ScorpioZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-scorpio.png";
-import TaurusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-taurus.png";
-import VirgoZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-virgo.png";
+import star from "public/images/offer/star.webp";
+import AquariusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-aquarius.webp";
+import AriesZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-aries.webp";
+import CancerZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-cancer.webp";
+import CapricornZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-capricorn.webp";
+import GeminiZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-gemini.webp";
+import LeoZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-leo.webp";
+import LibraZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-libra.webp";
+import PiscesZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-pisces.webp";
+import SagittariusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-sagittarius.webp";
+import ScorpioZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-scorpio.webp";
+import TaurusZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-taurus.webp";
+import VirgoZodiac from "public/images/zodiac/istikhara-qalandar-zodiac-virgo.webp";
 
 const ZodiacSign = () => {
   useEffect(() => {

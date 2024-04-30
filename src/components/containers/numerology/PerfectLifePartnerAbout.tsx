@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import PerfectLifePartner from "public/images/istikhara-qalandar-numerology-for-choosing-the-life-partner.avif";
-import star from "public/images/star.png";
-import dotlarge from "public/images/agency/dot-large.png";
+import PerfectLifePartner from "public/images/istikhara-qalandar-numerology-for-choosing-the-life-partner.webp";
+import star from "public/images/star.webp";
+import dotlarge from "public/images/agency/dot-large.webp";
 
 const PerfectLifePartnerAbout = () => {
   return (

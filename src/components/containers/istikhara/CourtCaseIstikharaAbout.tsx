@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import CourtCaseIstikhara from "public/images/istikhara-qalandar-istikhara-for-court-case.jpg";
-import star from "public/images/star.png";
-import dotlarge from "public/images/agency/dot-large.png";
+import CourtCaseIstikhara from "public/images/istikhara-qalandar-istikhara-for-court-case.webp";
+import star from "public/images/star.webp";
+import dotlarge from "public/images/agency/dot-large.webp";
 
 const CourtCaseIstikharaAbout = () => {
   return (

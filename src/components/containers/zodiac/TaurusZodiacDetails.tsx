@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import TaurusZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-taurus.png";
+import TaurusZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-taurus.webp";
 
 const TaurusZodiacDetails = () => {
   return (

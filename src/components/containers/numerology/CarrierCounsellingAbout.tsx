@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import CarrierCounselling from "public/images/istikhara-qalandar-numerology-for-choosing-the-career-in-your-life.jpg";
-import star from "public/images/star.png";
-import dotlarge from "public/images/agency/dot-large.png";
+import CarrierCounselling from "public/images/istikhara-qalandar-numerology-for-choosing-the-career-in-your-life.webp";
+import star from "public/images/star.webp";
+import dotlarge from "public/images/agency/dot-large.webp";
 
 const CarrierCounsellingAbout = () => {
   return (

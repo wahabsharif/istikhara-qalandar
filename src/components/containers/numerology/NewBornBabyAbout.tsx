@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import NewBornBaby from "public/images/istikhara-qalandar-numerology-for-choosing-names-for-new-born-baby.jpg";
-import star from "public/images/star.png";
-import dotlarge from "public/images/agency/dot-large.png";
+import NewBornBaby from "public/images/istikhara-qalandar-numerology-for-choosing-names-for-new-born-baby.webp";
+import star from "public/images/star.webp";
+import dotlarge from "public/images/agency/dot-large.webp";
 
 const NewBornBabyAbout = () => {
   return (

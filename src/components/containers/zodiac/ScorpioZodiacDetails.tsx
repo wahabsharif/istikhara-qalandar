@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ScorpioZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-scorpio.png";
+import ScorpioZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-scorpio.webp";
 
 const ScorpioZodiacDetails = () => {
   return (

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import dawn from "public/images/banner/dawn.png";
+import dawn from "public/images/banner/dawn.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeBanner = () => {
@@ -42,7 +42,7 @@ const HomeBanner = () => {
       className="banner-two"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/home-banner.jpg')",
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/home-banner.webp')",
       }}
     >
       <div className="container">

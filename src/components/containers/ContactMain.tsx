@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import phone from "public/images/istikhara-qalandar-icon-phone.png";
-import mail from "public/images/istikhara-qalandar-icon-mail.png";
+import phone from "public/images/istikhara-qalandar-icon-phone.webp";
+import mail from "public/images/istikhara-qalandar-icon-mail.webp";
 
 const ContactMain = () => {
   return (

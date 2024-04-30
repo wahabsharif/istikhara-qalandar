@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CancerZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-cancer.png";
+import CancerZodiacImage from "public/images/zodiac/istikhara-qalandar-zodiac-cancer.webp";
 
 const CancerZodiacDetails = () => {
   return (
