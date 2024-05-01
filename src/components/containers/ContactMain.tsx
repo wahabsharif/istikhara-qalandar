@@ -17,7 +17,7 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Phone</h4>
                 <p>
-                  <Link href="tel:+923000701999">+92 300 0701999</Link>
+                  <Link href="tel:923000701999">Mobile : +92 300 0701999</Link>
                 </p>
               </div>
             </div>
@@ -29,10 +29,9 @@ const ContactMain = () => {
               </div>
               <div className="content">
                 <h4>Mail Address</h4>
-
                 <p>
-                  <Link href="mailto:info.company@gmail.com">
-                    info@gmail.com
+                  <Link href="mailto:hussian.qalandar@yahoo.com">
+                    hussian.qalandar@yahoo.com
                   </Link>
                 </p>
               </div>

@@ -85,9 +85,9 @@ const Footer = () => {
                 <i className="fa-sharp fa-solid fa-phone-volume"></i>
                 +92 300 0701999
               </Link>
-              <Link href="mailto:info@istikhara-qalandar.com">
+              <Link href="mailto:hussian.qalandar@yahoo.com">
                 <i className="fa-sharp fa-solid fa-envelope"></i>
-                info@gmail.com
+                hussian.qalandar@yahoo.com
               </Link>
             </div>
           </div>
