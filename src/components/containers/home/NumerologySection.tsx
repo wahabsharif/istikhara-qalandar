@@ -38,7 +38,7 @@ const NumerologySection = () => {
                 </Link>
               </div>
               <div className="social justify-content-center">
-                <Link href="https://www.facebook.com/" target="_blank">
+                <Link href="https://wa.me/+923000701999" target="_blank">
                   <i className="fa-brands fa-whatsapp"></i>
                 </Link>
               </div>
@@ -65,7 +65,7 @@ const NumerologySection = () => {
                 </Link>
               </div>
               <div className="social justify-content-center">
-                <Link href="https://www.facebook.com/" target="_blank">
+                <Link href="https://wa.me/+923000701999" target="_blank">
                   <i className="fa-brands fa-whatsapp"></i>
                 </Link>
               </div>
@@ -92,7 +92,7 @@ const NumerologySection = () => {
                 </Link>
               </div>
               <div className="social justify-content-center">
-                <Link href="https://www.facebook.com/" target="_blank">
+                <Link href="https://wa.me/+923000701999" target="_blank">
                   <i className="fa-brands fa-whatsapp"></i>
                 </Link>
               </div>
@@ -119,7 +119,7 @@ const NumerologySection = () => {
                 </Link>
               </div>
               <div className="social justify-content-center">
-                <Link href="https://www.facebook.com/" target="_blank">
+                <Link href="https://wa.me/+923000701999" target="_blank">
                   <i className="fa-brands fa-whatsapp"></i>
                 </Link>
               </div>
@@ -146,7 +146,7 @@ const NumerologySection = () => {
                 </Link>
               </div>
               <div className="social justify-content-center">
-                <Link href="https://www.facebook.com/" target="_blank">
+                <Link href="https://wa.me/+923000701999" target="_blank">
                   <i className="fa-brands fa-whatsapp"></i>
                 </Link>
               </div>

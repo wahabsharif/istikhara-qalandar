@@ -17,7 +17,7 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Phone</h4>
                 <p>
-                  <Link href="tel:923000701999">+92 300 0701999</Link>
+                  <Link href="tel:+923000701999">+92 300 0701999</Link>
                 </p>
               </div>
             </div>

@@ -8,6 +8,7 @@ import Footer from "./footer/Footer";
 import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
 import SplitType from "split-type";
+import FloatingSocialIcons from "../floatingSocialIcons";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -174,6 +175,7 @@ const Layout = ({
         <main>{children}</main>
         {footer === 1 && <Footer />}
         <ScrollProgressBtn />
+        <FloatingSocialIcons />
         <CustomCursor
           onTitleMouseEnter={handleMouseEnterTitle}
           onTitleMouseLeave={handleMouseLeaveTitle}

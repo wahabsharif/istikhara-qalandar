@@ -81,7 +81,7 @@ const Footer = () => {
               <h5>Contact Us</h5>
             </div>
             <div className="footer__single-meta">
-              <Link href="tel:923000701999">
+              <Link href="tel:+923000701999">
                 <i className="fa-sharp fa-solid fa-phone-volume"></i>
                 +92 300 0701999
               </Link>
