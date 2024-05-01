@@ -87,7 +87,7 @@ const Footer = () => {
               </Link>
               <Link href="mailto:info@istikhara-qalandar.com">
                 <i className="fa-sharp fa-solid fa-envelope"></i>
-                info@istikhara-qalandar.com
+                info@gmail.com
               </Link>
             </div>
           </div>
