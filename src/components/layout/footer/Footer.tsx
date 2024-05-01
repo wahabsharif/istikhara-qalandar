@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo/istikhara-qalandar-logo-dark.svg";
+import logo from "public/images/logo/istikhara-qalandar-logo-white.svg";
 // import devIcon from "public/images/logo/developer-icon.ico";
 
 const Footer = () => {

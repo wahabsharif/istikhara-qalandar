@@ -4,7 +4,7 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import AboutIstikharaImage1 from "public/images/istikhara/about-what-is-the-purpose-of-istikhara-1.webp";
-import AboutIstikharaGif from "public/images/istikhara/about-what-is-the-purpose-of-istikhara-vid.gif";
+import AboutIstikharaImage2 from "public/images/istikhara/about-what-is-the-purpose-of-istikhara-image.webp";
 import star from "public/images/star.webp";
 import dotlarge from "public/images/agency/dot-large.webp";
 
@@ -23,7 +23,7 @@ const AboutIstikhara = () => {
                 priority
               />
               <Image
-                src={AboutIstikharaGif}
+                src={AboutIstikharaImage2}
                 alt="about-what-is-the-purpose-of-istikhara"
                 className="thumb-two fade-right"
                 priority

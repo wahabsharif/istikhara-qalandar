@@ -58,7 +58,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <Image
                         src={logoSrc}
                         priority
-                        width={100}
+                        width={150}
                         alt="istikhara-qalandar-logo"
                       />
                     </Link>

@@ -48,20 +48,6 @@ const HomeBanner = () => {
       <div className="container">
         <div className="row">
           <div className="col-6">
-            <div className="banner-two-inner">
-              <div className="banner-two__meta">
-                <div className="thumb imae">
-                  <video autoPlay loop muted controls>
-                    <source
-                      src="/videos/istikhara-qalandar-home-banner-video.webm"
-                      type="video/mp4"
-                    />
-                  </video>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-6">
             <div className="banner-two__content">
               <h1 className="title-anim">
                 Your Reliable Guide:{" "}
@@ -93,7 +79,11 @@ const HomeBanner = () => {
           </div>
         </div>
       </div>
-      <Image src={dawn} alt="Image" className="dawn" />
+      <Image
+        src={dawn}
+        alt="istikhara-qalandar-home-banner-background-image"
+        className="dawn"
+      />
     </section>
   );
 };
