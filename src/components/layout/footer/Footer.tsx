@@ -13,10 +13,16 @@ const Footer = () => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-12 col-lg-3 col-xl-3">
-            <Link href="/" className="logo">
-              <Image src={logo} width={200} alt="Image" />
-            </Link>
+          <div className="col-12 col-lg-3 col-xl-3 text-center">
+            <div className="logo">
+              <Link href="/">
+                <Image
+                  src={logo}
+                  width={200}
+                  alt="istikhara-qalandar-footer-logo"
+                />
+              </Link>
+            </div>
             <div className="footer__single">
               <div className="align-align-items-center">
                 <div className="social justify-content-center justify-content-lg-start">
