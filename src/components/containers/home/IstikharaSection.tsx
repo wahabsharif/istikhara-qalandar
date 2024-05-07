@@ -8,6 +8,9 @@ import HealthIstikhara from "public/images/istikhara/istikhara-for-health.webp";
 import JobIstikhara from "public/images/istikhara/istikhara-for-job.webp";
 import MarriageIstikhara from "public/images/istikhara/istikhara-for-marriage-life.webp";
 import MigrationIstikhara from "public/images/istikhara/istikhara-for-migration.webp";
+import LoveMagicSpellIstikhara from "public/images/istikhara/istikhara-for-love-magic-spell.png";
+import BlackMagicIstikhara from "public/images/istikhara/istikhara-for-black-magic.png";
+import CureBlackMagicIstikhara from "public/images/istikhara/istikhara-for-cure-black-magic.png";
 
 const IstikharaSection = () => {
   return (
@@ -25,7 +28,7 @@ const IstikharaSection = () => {
           </div>
         </div>
         <div className="row gaper">
-          <div className="col-12 col-md-6 col-xl-3">
+          <div className="col-12 col-md-6 col-xl-4">
             <div className="feedback-s__single topy-tilt fade-top">
               <div className="author">
                 <div className="thumb">
@@ -52,7 +55,7 @@ const IstikharaSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-xl-3">
+          <div className="col-12 col-md-6 col-xl-4">
             <div className="feedback-s__single topy-tilt fade-top">
               <div className="author">
                 <div className="thumb">
@@ -79,7 +82,7 @@ const IstikharaSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-xl-3">
+          <div className="col-12 col-md-6 col-xl-4">
             <div className="feedback-s__single topy-tilt fade-top">
               <div className="author">
                 <div className="thumb">
@@ -106,7 +109,7 @@ const IstikharaSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-xl-3">
+          <div className="col-12 col-md-6 col-xl-4">
             <div className="feedback-s__single topy-tilt fade-top">
               <div className="author">
                 <div className="thumb">
@@ -181,7 +184,7 @@ const IstikharaSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-xl-4">
+          <div className="col-12 col-md-6 col-xl-3">
             <div className="feedback-s__single topy-tilt fade-top">
               <div className="author">
                 <div className="thumb">
@@ -195,6 +198,87 @@ const IstikharaSection = () => {
               <hr />
               <div className="section__content-cta text-center">
                 <Link href="healing">
+                  <button className="btn btn--secondary">Load More </button>
+                </Link>
+              </div>
+              <div className="social justify-content-center">
+                <Link href="https://wa.me/+923000701999" target="_blank">
+                  <i className="fa-brands fa-whatsapp"></i>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-3">
+            <div className="feedback-s__single topy-tilt fade-top">
+              <div className="author">
+                <div className="thumb">
+                  <Image
+                    src={BlackMagicIstikhara}
+                    alt="istikhara-for-black-magic"
+                  />
+                </div>
+                <div className="author-meta">
+                  <h5>Istikhara</h5>
+                  <p>For Black Magic</p>
+                </div>
+              </div>
+              <hr />
+              <div className="section__content-cta text-center">
+                <Link href="black-magic">
+                  <button className="btn btn--secondary">Load More </button>
+                </Link>
+              </div>
+              <div className="social justify-content-center">
+                <Link href="https://wa.me/+923000701999" target="_blank">
+                  <i className="fa-brands fa-whatsapp"></i>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-3">
+            <div className="feedback-s__single topy-tilt fade-top">
+              <div className="author">
+                <div className="thumb">
+                  <Image
+                    src={LoveMagicSpellIstikhara}
+                    alt="istikhara-for-love-magic-spell"
+                  />
+                </div>
+                <div className="author-meta">
+                  <h5>Istikhara</h5>
+                  <p>For Love Magic Spell</p>
+                </div>
+              </div>
+              <hr />
+              <div className="section__content-cta text-center">
+                <Link href="love-magic-spell">
+                  <button className="btn btn--secondary">Load More </button>
+                </Link>
+              </div>
+              <div className="social justify-content-center">
+                <Link href="https://wa.me/+923000701999" target="_blank">
+                  <i className="fa-brands fa-whatsapp"></i>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-xl-3">
+            <div className="feedback-s__single topy-tilt fade-top">
+              <div className="author">
+                <div className="thumb">
+                  <Image
+                    src={CureBlackMagicIstikhara}
+                    alt="istikhara-for-cure-black-magic"
+                  />
+                </div>
+                <div className="author-meta">
+                  <h5>Istikhara</h5>
+                  <p>For Cure Black Magic</p>
+                </div>
+              </div>
+              <hr />
+              <div className="section__content-cta text-center">
+                <Link href="cure-black-magic">
                   <button className="btn btn--secondary">Load More </button>
                 </Link>
               </div>
