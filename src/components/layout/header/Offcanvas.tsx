@@ -135,6 +135,15 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     <li>
                       <Link href="healing">Healing</Link>
                     </li>
+                    <li>
+                      <Link href="black-magic">Black Magic</Link>
+                    </li>
+                    <li>
+                      <Link href="love-magic-spell">Love Magic Spell</Link>
+                    </li>
+                    <li>
+                      <Link href="cure-black-magic">Cure Black Magic</Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
