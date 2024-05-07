@@ -118,6 +118,15 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       <Link href="marriage">Marriage</Link>
                     </li>
                     <li>
+                      <Link href="black-magic">Black Magic</Link>
+                    </li>
+                    <li>
+                      <Link href="love-magic-spell">Love Magic Spell</Link>
+                    </li>
+                    <li>
+                      <Link href="cure-black-magic">Cure Black Magic</Link>
+                    </li>
+                    <li>
                       <Link href="job">Job</Link>
                     </li>
                     <li>
@@ -134,15 +143,6 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     </li>
                     <li>
                       <Link href="healing">Healing</Link>
-                    </li>
-                    <li>
-                      <Link href="black-magic">Black Magic</Link>
-                    </li>
-                    <li>
-                      <Link href="love-magic-spell">Love Magic Spell</Link>
-                    </li>
-                    <li>
-                      <Link href="cure-black-magic">Cure Black Magic</Link>
                     </li>
                   </ul>
                 </li>
