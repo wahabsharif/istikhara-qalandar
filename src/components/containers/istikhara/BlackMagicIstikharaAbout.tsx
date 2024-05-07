@@ -38,7 +38,7 @@ const BlackMagicIstikharaAbout = () => {
                   happiness. Let us help you navigate the intricacies of Black
                   Magic, guiding you towards the perfect solution meant for you.
                   Start your Black Magic journey today and experience the
-                  enchantment unfold as you pursue your desired outcome!"{" "}
+                  enchantment unfold as you pursue your desired outcome!"
                 </p>
               </div>
             </div>
