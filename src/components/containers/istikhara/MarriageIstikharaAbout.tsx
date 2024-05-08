@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import MarriageIstikhara from "public/images/istikhara-qalandar-istikhara-for-marriage-life.webp";
+import MarriageIstikhara from "public/images/istikhara-qalandar-istikhara-for-marriage-life.png";
 import star from "public/images/star.webp";
 import dotlarge from "public/images/agency/dot-large.webp";
 

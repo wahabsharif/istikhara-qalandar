@@ -9,7 +9,10 @@ const FloatingSocialIcons = () => {
           <i id="addIcon" className="material-icons fa-brands fa-plus"></i>
         </div>
         <div id="forms" className="minifloating-socials">
-          <Link href="#" target="_blank">
+          <Link
+            href="https://www.facebook.com/istikharaqalandar/"
+            target="_blank"
+          >
             <i className="fa-brands fa-facebook-f"></i>
           </Link>
         </div>

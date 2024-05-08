@@ -25,15 +25,12 @@ const Footer = () => {
             </div>
             <div className="footer__single">
               <div className="align-align-items-center">
-                <div className="social justify-content-center justify-content-lg-start">
-                  <Link href="https://www.facebook.com/" target="_blank">
+                <div className="social text-center justify-content-lg-start">
+                  <Link
+                    href="https://www.facebook.com/istikharaqalandar/"
+                    target="_blank"
+                  >
                     <i className="fa-brands fa-facebook-f"></i>
-                  </Link>
-                  <Link href="https://www.twitter.com/" target="_blank">
-                    <i className="fa-brands fa-twitter"></i>
-                  </Link>
-                  <Link href="https://www.pinterest.com/" target="_blank">
-                    <i className="fa-brands fa-linkedin-in"></i>
                   </Link>
                   <Link href="https://www.instagram.com/" target="_blank">
                     <i className="fa-brands fa-instagram"></i>
@@ -91,9 +88,9 @@ const Footer = () => {
                 <i className="fa-sharp fa-solid fa-phone-volume"></i>
                 +92 300 0701999
               </Link>
-              <Link href="mailto:hussian.qalandar@yahoo.com">
+              <Link href="mailto:istikharaqalandar@gmail.com">
                 <i className="fa-sharp fa-solid fa-envelope"></i>
-                hussian.qalandar@yahoo.com
+                istikharaqalandar@gmail.com
               </Link>
             </div>
           </div>

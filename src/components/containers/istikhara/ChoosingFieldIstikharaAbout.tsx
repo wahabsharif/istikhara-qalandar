@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ChoosingFieldIstikhara from "public/images/istikhara-qalandar-istikhara-for-choosing-field.webp";
+import ChoosingFieldIstikhara from "public/images/istikhara-qalandar-istikhara-for-choosing-field.png";
 import star from "public/images/star.webp";
 import dotlarge from "public/images/agency/dot-large.webp";
 
