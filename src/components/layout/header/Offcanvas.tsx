@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo/istikhara-qalandar-landscape-white.svg";
+import logo from "public/images/logo/istikhara-qalandar-landscape-white.png";
 
 interface HeaderProps {
   openNav: boolean;

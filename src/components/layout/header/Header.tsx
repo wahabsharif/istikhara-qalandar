@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import logo from "public/images/logo/istikhara-qalandar-landscape-white.svg";
-import logoLight from "public/images/logo/istikhara-qalandar-landscape-white.svg";
+import logo from "public/images/logo/istikhara-qalandar-landscape-white.png";
+import logoLight from "public/images/logo/istikhara-qalandar-landscape-white.png";
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -52,13 +52,14 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <nav className="navbar p-0">
+                <nav className="navbar">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
                       <Image
                         src={logoSrc}
                         priority
-                        width={150}
+                        width={100}
+                        height={50}
                         alt="istikhara-qalandar-logo"
                       />
                     </Link>
@@ -86,7 +87,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           <li>
                             <Link href="marriage">Marriage</Link>
                           </li>
-                                                    <li>
+                          <li>
                             <Link href="black-magic">Black Magic</Link>
                           </li>
                           <li>

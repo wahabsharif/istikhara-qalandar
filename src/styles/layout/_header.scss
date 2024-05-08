@@ -526,16 +526,28 @@
 
 // quinary navbar
 .quinary--navbar {
+  // Existing styles for .navbar__logo
   .navbar__logo {
     display: flex;
     align-items: center;
+    padding: 100px;
     gap: 120px;
   }
 
-  .open-offcanvas-nav {
-    font-size: 30px;
-    &:hover {
-      color: var(--primary-color);
+  // Responsive styles
+  // For screens smaller than 768px (typical breakpoint for tablets)
+  @media (max-width: 767px) {
+    .navbar__logo {
+      gap: 60px; // Adjust the gap for smaller screens
+      // Add any other responsive styles here
+    }
+  }
+
+  // For screens smaller than 480px (typical breakpoint for mobile phones)
+  @media (max-width: 479px) {
+    .navbar__logo {
+      gap: 30px; // Further reduce the gap for even smaller screens
+      // Add any other responsive styles here
     }
   }
 }
