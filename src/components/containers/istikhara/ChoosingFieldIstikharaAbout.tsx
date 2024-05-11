@@ -3,7 +3,7 @@ import Image from "next/image";
 import ChoosingFieldIstikhara from "public/images/istikhara-qalandar-istikhara-for-choosing-field.webp";
 import star from "public/images/star.webp";
 import dotlarge from "public/images/agency/dot-large.webp";
-
+import Link from "next/link";
 const ChoosingFieldIstikharaAbout = () => {
   return (
     <section className="section award">
@@ -31,18 +31,32 @@ const ChoosingFieldIstikharaAbout = () => {
               <div className="paragraph">
                 <p>
                   Embark on the thrilling journey of choosing the right career
-                  path for your future with Istikhara. Istikhara offers a divine
-                  avenue to seek clarity and guidance as you navigate through
-                  various career options. Our supportive team is committed to
-                  assisting you through the Istikhara process, providing
-                  personalized insights tailored to your unique interests and
-                  aspirations. With Istikhara, you can unveil hidden talents and
-                  passions, enabling you to make informed decisions regarding
-                  your educational and career pursuits. Start your Istikhara
+                  path for your future with{" "}
+                  <Link href="https://en.wikipedia.org/wiki/Salat_al-Istikharah">
+                    Istikhara
+                  </Link>{" "}
+                  . Istikhara offers a divine avenue to seek clarity and
+                  guidance as you navigate through various career options. Our
+                  supportive team is committed to assisting you through the{" "}
+                  <Link href="https://en.wikipedia.org/wiki/Salat_al-Istikharah">
+                    Istikhara
+                  </Link>{" "}
+                  process, providing personalized insights tailored to your
+                  unique interests and aspirations. With Istikhara, you can
+                  unveil hidden talents and passions, enabling you to make
+                  informed decisions regarding your educational and career
+                  pursuits. Start your{" "}
+                  <Link href="https://en.wikipedia.org/wiki/Salat_al-Istikharah">
+                    Istikhara
+                  </Link>{" "}
                   journey today and unlock the potential to discover the perfect
                   career field that resonates with your strengths and ambitions.
-                  Let Istikhara light the way as you pursue a fulfilling and
-                  rewarding professional journey.{" "}
+                  Let{" "}
+                  <Link href="https://en.wikipedia.org/wiki/Salat_al-Istikharah">
+                    Istikhara
+                  </Link>{" "}
+                  light the way as you pursue a fulfilling and rewarding
+                  professional journey.{" "}
                 </p>
               </div>
             </div>

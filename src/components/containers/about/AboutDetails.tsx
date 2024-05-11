@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import star from "public/images/star.webp";
 import dotlarge from "public/images/agency/dot-large.webp";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 const AboutDetails = () => {
@@ -16,8 +17,11 @@ const AboutDetails = () => {
               <h2 className="title title-anim">Istikhara </h2>
               <div className="paragraph">
                 <p>
-                  Istikhara is a sacred practice that delves into spirituality
-                  to seek guidance and clarity in decision-making. Our Istikhara
+                  <Link href="https://en.wikipedia.org/wiki/Salat_al-Istikharah">
+                    Istikhara
+                  </Link>{" "}
+                  is a sacred practice that delves into spirituality to seek
+                  guidance and clarity in decision-making. Our Istikhara
                   services cover various areas such as marriage, career, legal
                   matters, health concerns, and spiritual healing. Whether
                   you're facing a life crossroads or seeking divine

@@ -41,12 +41,18 @@ const AboutIstikhara = () => {
                   guiding light in moments of doubt.
                 </p>
                 <p>
-                  Uncertain choices can leave us feeling lost. Istikhara
+                  Uncertain choices can leave us feeling lost.{" "}
+                  <Link href="https://en.wikipedia.org/wiki/Salat_al-Istikharah">
+                    Istikhara
+                  </Link>{" "}
                   provides a powerful tool to navigate towards clarity.
                 </p>
                 <p>
                   While confusion and indecision might cloud our judgment,
-                  Istikhara helps us find the right path.
+                  <Link href="https://en.wikipedia.org/wiki/Salat_al-Istikharah">
+                    Istikhara
+                  </Link>{" "}
+                  helps us find the right path.
                 </p>
               </div>
               <div className="section__content-cta">
