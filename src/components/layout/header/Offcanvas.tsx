@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo/istikhara-qalandar-landscape-white.png";
+import logo from "public/images/logo/istikhara-qalandar-landscape-white.webp";
 
 interface HeaderProps {
   openNav: boolean;
@@ -71,7 +71,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
         <nav className="offcanvas-menu__wrapper" data-lenis-prevent>
           <div className="offcanvas-menu__header nav-fade">
             <div className="logo">
-              <Link href="/">
+              <Link href="/" prefetch={false}>
                 <Image
                   src={logo}
                   width={100}
@@ -93,10 +93,14 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
             <div className="navbar__menu">
               <ul>
                 <li className="navbar__item nav-fade">
-                  <Link href="/">Home</Link>
+                  <Link href="/" prefetch={false}>
+                    Home
+                  </Link>
                 </li>
                 <li className="navbar__item nav-fade">
-                  <Link href="about">About</Link>
+                  <Link href="about" prefetch={false}>
+                    About
+                  </Link>
                 </li>
                 <li className="navbar__item navbar__item--has-children nav-fade">
                   <button
@@ -112,37 +116,59 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     className={`navbar__sub-menu ${isSubMenuOpen("istikhara")}`}
                   >
                     <li>
-                      <Link href="istikhara">Istikhara</Link>
+                      <Link href="istikhara" prefetch={false}>
+                        Istikhara
+                      </Link>
                     </li>
                     <li>
-                      <Link href="marriage">Marriage</Link>
+                      <Link href="marriage" prefetch={false}>
+                        Marriage
+                      </Link>
                     </li>
                     <li>
-                      <Link href="black-magic">Black Magic</Link>
+                      <Link href="black-magic" prefetch={false}>
+                        Black Magic
+                      </Link>
                     </li>
                     <li>
-                      <Link href="love-magic-spell">Love Magic Spell</Link>
+                      <Link href="love-magic-spell" prefetch={false}>
+                        Love Magic Spell
+                      </Link>
                     </li>
                     <li>
-                      <Link href="cure-black-magic">Cure Black Magic</Link>
+                      <Link href="cure-black-magic" prefetch={false}>
+                        Cure Black Magic
+                      </Link>
                     </li>
                     <li>
-                      <Link href="job">Job</Link>
+                      <Link href="job" prefetch={false}>
+                        Job
+                      </Link>
                     </li>
                     <li>
-                      <Link href="choosing-field">Choosing Field</Link>
+                      <Link href="choosing-field" prefetch={false}>
+                        Choosing Field
+                      </Link>
                     </li>
                     <li>
-                      <Link href="court-case">Court Case</Link>
+                      <Link href="court-case" prefetch={false}>
+                        Court Case
+                      </Link>
                     </li>
                     <li>
-                      <Link href="migration">Migration</Link>
+                      <Link href="migration" prefetch={false}>
+                        Migration
+                      </Link>
                     </li>
                     <li>
-                      <Link href="health">Health</Link>
+                      <Link href="health" prefetch={false}>
+                        Health
+                      </Link>
                     </li>
                     <li>
-                      <Link href="healing">Healing</Link>
+                      <Link href="healing" prefetch={false}>
+                        Healing
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -162,43 +188,57 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     )}`}
                   >
                     <li>
-                      <Link href="numerology">Numerology</Link>
+                      <Link href="numerology" prefetch={false}>
+                        Numerology
+                      </Link>
                     </li>
                     <li>
-                      <Link href="travel-migration">Travel/Migration</Link>
+                      <Link href="travel-migration" prefetch={false}>
+                        Travel/Migration
+                      </Link>
                     </li>
                     <li>
-                      <Link href="perfect-life-partner">
+                      <Link href="perfect-life-partner" prefetch={false}>
                         Perfect Life Partner
                       </Link>
                     </li>
                     <li>
-                      <Link href="new-born-baby">Name For New Born Baby</Link>
+                      <Link href="new-born-baby" prefetch={false}>
+                        Name For New Born Baby
+                      </Link>
                     </li>
                     <li>
-                      <Link href="stone-and-colors">
+                      <Link href="stone-and-colors" prefetch={false}>
                         Stones & Colors In Life
                       </Link>
                     </li>
                     <li>
-                      <Link href="carrier-counselling">
+                      <Link href="carrier-counselling" prefetch={false}>
                         Carrier Counselling
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li className="navbar__item nav-fade">
-                  <Link href="wazaif">Wazaif</Link>
+                  <Link href="wazaif" prefetch={false}>
+                    Wazaif
+                  </Link>
                 </li>
                 <li className="navbar__item nav-fade">
-                  <Link href="contact">Contact</Link>
+                  <Link href="contact" prefetch={false}>
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
           <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
-              <Link href="contact" className="btn btn--secondary">
+              <Link
+                href="contact"
+                className="btn btn--secondary"
+                prefetch={false}
+              >
                 Let&apos;s Talk
               </Link>
             </div>
@@ -208,6 +248,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               href="https://www.facebook.com/"
               target="_blank"
               aria-label="share us on facebook"
+              prefetch={false}
             >
               <i className="fa-brands fa-facebook-f"></i>
             </Link>
@@ -215,6 +256,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               href="https://www.twitter.com/"
               target="_blank"
               aria-label="share us on twitter"
+              prefetch={false}
             >
               <i className="fa-brands fa-twitter"></i>
             </Link>
@@ -222,6 +264,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               href="https://www.pinterest.com/"
               target="_blank"
               aria-label="share us on pinterest"
+              prefetch={false}
             >
               <i className="fa-brands fa-linkedin-in"></i>
             </Link>
@@ -229,6 +272,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               href="https://www.instagram.com/"
               target="_blank"
               aria-label="share us on instagram"
+              prefetch={false}
             >
               <i className="fa-brands fa-instagram"></i>
             </Link>

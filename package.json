@@ -6,12 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@next/bundle-analyzer": "^14.2.3",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -19,6 +23,7 @@
     "@types/vanilla-tilt": "^1.6.2",
     "bootstrap": "^5.3.3",
     "chroma-js": "^2.4.2",
+    "cross-env": "^7.0.3",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "gsap": "^3.12.5",
@@ -28,6 +33,7 @@
     "react-dom": "18.2.0",
     "react-modal": "^3.16.1",
     "sass": "^1.75.0",
+    "save-dev": "^0.0.1-security",
     "sharp": "^0.32.6",
     "split-type": "^0.3.4",
     "swiper": "^10.3.1",

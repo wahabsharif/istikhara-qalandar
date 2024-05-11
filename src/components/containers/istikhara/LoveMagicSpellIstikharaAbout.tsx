@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LoveMagicSpellIstikhara from "public/images/istikhara-qalandar-istikhara-for-love-magic-spell.jpg";
+import LoveMagicSpellIstikhara from "public/images/istikhara-qalandar-istikhara-for-love-magic-spell.webp";
 import star from "public/images/star.webp";
 import dotlarge from "public/images/agency/dot-large.webp";
 

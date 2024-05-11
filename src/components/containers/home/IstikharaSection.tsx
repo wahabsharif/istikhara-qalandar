@@ -8,9 +8,9 @@ import HealthIstikhara from "public/images/istikhara/istikhara-for-health.webp";
 import JobIstikhara from "public/images/istikhara/istikhara-for-job.webp";
 import MarriageIstikhara from "public/images/istikhara/istikhara-for-marriage-life.webp";
 import MigrationIstikhara from "public/images/istikhara/istikhara-for-migration.webp";
-import LoveMagicSpellIstikhara from "public/images/istikhara/istikhara-for-love-magic-spell.png";
-import BlackMagicIstikhara from "public/images/istikhara/istikhara-for-black-magic.png";
-import CureBlackMagicIstikhara from "public/images/istikhara/istikhara-for-cure-black-magic.png";
+import LoveMagicSpellIstikhara from "public/images/istikhara/istikhara-for-love-magic-spell.webp";
+import BlackMagicIstikhara from "public/images/istikhara/istikhara-for-black-magic.webp";
+import CureBlackMagicIstikhara from "public/images/istikhara/istikhara-for-cure-black-magic.webp";
 
 const IstikharaSection = () => {
   return (

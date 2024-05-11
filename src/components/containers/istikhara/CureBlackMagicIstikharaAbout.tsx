@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CureBlackMagicIstikhara from "public/images/istikhara-qalandar-istikhara-for-cure-black-magic-life.jpg";
+import CureBlackMagicIstikhara from "public/images/istikhara-qalandar-istikhara-for-cure-black-magic-life.webp";
 import star from "public/images/star.webp";
 import dotlarge from "public/images/agency/dot-large.webp";
 

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import logo from "public/images/logo/istikhara-qalandar-landscape-white.png";
-import logoLight from "public/images/logo/istikhara-qalandar-landscape-white.png";
+import logo from "public/images/logo/istikhara-qalandar-landscape-white.webp";
+import logoLight from "public/images/logo/istikhara-qalandar-landscape-white.webp";
 import Offcanvas from "./Offcanvas";
 
 interface HeaderProps {
@@ -54,7 +54,7 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
               <div className="col-12">
                 <nav className="navbar">
                   <div className="navbar__logo">
-                    <Link href="/" aria-label="go to home">
+                    <Link href="/" aria-label="go to home" prefetch={false}>
                       <Image
                         src={logoSrc}
                         priority
@@ -67,12 +67,20 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   <div className="navbar__menu">
                     <ul>
                       <li className="navbar__item nav-fade">
-                        <Link href="/" className="navbar__item__link">
+                        <Link
+                          href="/"
+                          className="navbar__item__link"
+                          prefetch={false}
+                        >
                           Home
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="about" className="navbar__item__link">
+                        <Link
+                          href="about"
+                          className="navbar__item__link"
+                          prefetch={false}
+                        >
                           About
                         </Link>
                       </li>
@@ -81,42 +89,60 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          <a href="istikhara">Istikhara</a>
+                          <Link href="istikhara" prefetch={false}>
+                            Istikhara
+                          </Link>
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="marriage">Marriage</Link>
+                            <Link href="marriage" prefetch={false}>
+                              Marriage
+                            </Link>
                           </li>
                           <li>
-                            <Link href="black-magic">Black Magic</Link>
+                            <Link href="black-magic" prefetch={false}>
+                              Black Magic
+                            </Link>
                           </li>
                           <li>
-                            <Link href="love-magic-spell">
+                            <Link href="love-magic-spell" prefetch={false}>
                               Love Magic Spell
                             </Link>
                           </li>
                           <li>
-                            <Link href="cure-black-magic">
+                            <Link href="cure-black-magic" prefetch={false}>
                               Cure Black Magic
                             </Link>
                           </li>
                           <li>
-                            <Link href="job">Job</Link>
+                            <Link href="job" prefetch={false}>
+                              Job
+                            </Link>
                           </li>
                           <li>
-                            <Link href="choosing-field">Choosing Field</Link>
+                            <Link href="choosing-field" prefetch={false}>
+                              Choosing Field
+                            </Link>
                           </li>
                           <li>
-                            <Link href="court-case">Court Case</Link>
+                            <Link href="court-case" prefetch={false}>
+                              Court Case
+                            </Link>
                           </li>
                           <li>
-                            <Link href="migration">Migration</Link>
+                            <Link href="migration" prefetch={false}>
+                              Migration
+                            </Link>
                           </li>
                           <li>
-                            <Link href="health">Health</Link>
+                            <Link href="health" prefetch={false}>
+                              Health
+                            </Link>
                           </li>
                           <li>
-                            <Link href="healing">Healing</Link>
+                            <Link href="healing" prefetch={false}>
+                              Healing
+                            </Link>
                           </li>
                         </ul>
                       </li>
@@ -125,43 +151,53 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                           aria-label="dropdown menu"
                           className="navbar__dropdown-label"
                         >
-                          <a href="numerology">Numerology</a>
+                          <Link href="numerology" prefetch={false}>
+                            Numerology
+                          </Link>
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="travel-migration">
+                            <Link href="travel-migration" prefetch={false}>
                               Travel/Migration
                             </Link>
                           </li>
                           <li>
-                            <Link href="perfect-life-partner">
+                            <Link href="perfect-life-partner" prefetch={false}>
                               Perfect Life Partner
                             </Link>
                           </li>
                           <li>
-                            <Link href="new-born-baby">
+                            <Link href="new-born-baby" prefetch={false}>
                               Name For New Born Baby
                             </Link>
                           </li>
                           <li>
-                            <Link href="stone-and-colors">
+                            <Link href="stone-and-colors" prefetch={false}>
                               Stones & Colors In Life
                             </Link>
                           </li>
                           <li>
-                            <Link href="carrier-counselling">
+                            <Link href="carrier-counselling" prefetch={false}>
                               Carrier Counselling
                             </Link>
                           </li>
                         </ul>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="wazaif" className="navbar__item__link">
+                        <Link
+                          href="wazaif"
+                          className="navbar__item__link"
+                          prefetch={false}
+                        >
                           Wazaif
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="contact" className="navbar__item__link">
+                        <Link
+                          href="contact"
+                          className="navbar__item__link"
+                          prefetch={false}
+                        >
                           Contact
                         </Link>
                       </li>
@@ -169,7 +205,11 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__options">
                     <div className="navbar__mobile-options d-none d-sm-flex">
-                      <Link href="contact" className="btn btn--secondary">
+                      <Link
+                        href="contact"
+                        className="btn btn--secondary"
+                        prefetch={false}
+                      >
                         Let&apos;s Talk
                       </Link>
                     </div>

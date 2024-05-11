@@ -9,18 +9,18 @@ const SEO: React.FC<SEOProps> = ({ pageTitle }) => (
   <NextSeo
     title={
       pageTitle
-        ? `${pageTitle} - Your Reliable Guide: Life Journey, Numerology, Istikhara, Astrology & More!`
+        ? `${pageTitle} - Unlock Life's Path: Numerology, Istikhara & More`
         : undefined
     }
-    description="Find direction and meaning in life! Explore numerology, istikhara, astrology, love, travel, career, and more. Discover your life partner, lucky stones, and travel stars. Get expert advice and guidance on your unique journey."
+    description="Find direction in life! Explore numerology, istikhara, astrology, love, career & more. Discover your path & get expert guidance."
     openGraph={{
       type: "website",
       url: "http://istikharaqalandar.com/",
       title: pageTitle
-        ? `${pageTitle} - Your Reliable Guide: Life Journey, Numerology, Istikhara, Astrology & More!`
+        ? `${pageTitle} - Unlock Life's Path: Numerology, Istikhara & More`
         : undefined,
       description:
-        "Find direction and meaning in life! Explore numerology, istikhara, astrology, love, travel, career, and more. Discover your life partner, lucky stones, and travel stars. Get expert advice and guidance on your unique journey.",
+        "Find direction in life! Explore numerology, istikhara, astrology, love, career & more. Discover your path & get expert guidance.",
       images: [
         {
           url: "public/web-demos/istakhara-qalandar-home-banner-demo.webp",
@@ -41,6 +41,22 @@ const SEO: React.FC<SEOProps> = ({ pageTitle }) => (
       site: "@site",
       cardType: "summary_large_image",
     }}
+    // Add hreflang attributes here
+    additionalMetaTags={[
+      {
+        name: "hreflang",
+        content: "en",
+      },
+      {
+        name: "hreflang",
+        content: "ar",
+      },
+      {
+        name: "hreflang",
+        content: "ur",
+      },
+      // Add more hreflang attributes as needed
+    ]}
   />
 );
 

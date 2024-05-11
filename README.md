@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="250" src="https://raw.githubusercontent.com/wahabsharif/istikhara-qalandar/main/public/web-demos/istakhara-qalandar-home-banner-demo.png"  />
+  <img height="250" src="https://raw.githubusercontent.com/wahabsharif/istikhara-qalandar/main/public/web-demos/istakhara-qalandar-home-banner-demo.webp"  />
 </div>
 
 ###
