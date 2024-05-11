@@ -9,7 +9,7 @@ const SEO: React.FC<SEOProps> = ({ pageTitle }) => (
   <NextSeo
     title={
       pageTitle
-        ? `${pageTitle} - Unlock Life's Path: Numerology, Istikhara & More`
+        ? `${pageTitle} - Life's Path: Numerology, Istikhara, Astrology, Magic, & More.`
         : undefined
     }
     description="Find direction in life! Explore numerology, istikhara, astrology, love, career & more. Discover your path & get expert guidance."
@@ -17,19 +17,19 @@ const SEO: React.FC<SEOProps> = ({ pageTitle }) => (
       type: "website",
       url: "http://istikharaqalandar.com/",
       title: pageTitle
-        ? `${pageTitle} - Unlock Life's Path: Numerology, Istikhara & More`
+        ? `${pageTitle} - Life's Path: Numerology, Istikhara, Astrology, Magic, & More.`
         : undefined,
       description:
         "Find direction in life! Explore numerology, istikhara, astrology, love, career & more. Discover your path & get expert guidance.",
       images: [
         {
-          url: "public/web-demos/istakhara-qalandar-home-banner-demo.webp",
+          url: "https://www.istikharaqalandar.com/web-demos/istakhara-qalandar-home-banner-demo.webp",
           width: 800,
           height: 600,
           alt: "Istikhara Qalandar Home Image",
         },
         {
-          url: "https://raw.githubusercontent.com/wahabsharif/istikhara-qalandar/main/public/web-demos/istakhara-qalandar-home-banner-demo.webp",
+          url: "https://www.istikharaqalandar.com/web-demos/istakhara-qalandar-home-banner-demo.webp",
           width: 900,
           height: 800,
           alt: "Istikhara Qalandar Home Image",
