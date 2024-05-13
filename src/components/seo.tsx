@@ -7,18 +7,12 @@ interface SEOProps {
 
 const SEO: React.FC<SEOProps> = ({ pageTitle }) => (
   <NextSeo
-    title={
-      pageTitle
-        ? `${pageTitle} - Life's Path: Numerology, Istikhara, Astrology, Magic, & More.`
-        : undefined
-    }
+    title={pageTitle ? `${pageTitle} - Unveiling Your Life Path` : undefined}
     description="Find direction in life! Explore numerology, istikhara, astrology, love, career & more. Discover your path & get expert guidance."
     openGraph={{
       type: "website",
       url: "http://istikharaqalandar.com/",
-      title: pageTitle
-        ? `${pageTitle} - Life's Path: Numerology, Istikhara, Astrology, Magic, & More.`
-        : undefined,
+      title: pageTitle ? `${pageTitle} - Unveiling Your Life Path` : undefined,
       description:
         "Find direction in life! Explore numerology, istikhara, astrology, love, career & more. Discover your path & get expert guidance.",
       images: [
